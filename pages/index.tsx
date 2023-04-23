@@ -312,7 +312,7 @@ const githubProvider = new GithubAuthProvider();
           <button
             className="w-[140px] cursor-pointer rounded-md bg-black hover:bg-white hover:text-black border border-indigo-600  px-4 py-2 font-bold hover:bg-violet-600 active:bg-violet-700"
             onClick={() => handleTranslate()}
-            disabled={loading || !user}
+            // disabled={loading || !user}
           >
             {loading ? 'Translating...' : 'Translate'}
           </button>
